@@ -1,0 +1,142 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+body{
+    /**padronizar**/
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: block;
+    width: 100%;
+    height: 110px;
+}
+#cabecalho {
+    position: relative;
+    display:flex;
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#circulo1{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(22, 85, 180);
+    border-radius: 100%;
+    position: absolute;
+    bottom: 45%;
+    left: 5.5%;
+}
+#adj1{
+    position: absolute;
+    bottom: 40%;
+    left: 140px;
+    color: rgb(22, 22, 88);
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+
+
+#menu1{
+    position: absolute;
+    color: rgb(22, 22, 88);
+    right: 2%;
+    bottom: 40%;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+tr,td{
+    padding-right: 15px;
+    letter-spacing: 1px;
+}
+/**Aqui está a imagem**/
+
+section{
+    position: relative;
+}
+
+#imagem_pai{
+    position: absolute;
+    left: 25rem;
+    top: 13rem;
+}
+
+#circulo2{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #aaa;
+
+}
+#circulo2 img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/**Aqui está um pouco sobre mim**/
+
+#paitexto{
+    position: relative;
+}
+.adj2{
+    position: absolute;
+    top: 13rem;
+    left: 43rem;
+}
+.adj3{
+    position: absolute;
+    top: 17rem;
+    left: 43rem;
+}
+.adj4{
+    width: 80rem;
+    position: absolute;
+    text-align: justify;
+    top: 21rem;
+    left: 43rem;
+}
+.contato {
+    position: absolute;
+    top: 35rem;
+    left:43rem;
+}
+#coluna3{
+    position: absolute;
+    padding: 2rem;
+    top: 70rem;
+    left: 3rem;
+}
+#coluna3, td{
+    padding-right: 15rem;
+}
+#coockiespolitics{
+    position: absolute;
+    top: 72rem;
+    right: 1rem;
+}
+#privacepolitics{
+    position: absolute;
+    top: 74rem;
+    right: 1rem;
+}
+#poradjluiz{
+    position: absolute;
+    top: 75rem;
+    right: 1rem;
+}

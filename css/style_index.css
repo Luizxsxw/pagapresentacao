@@ -9,11 +9,13 @@ body{
     border: 0px;
     width: 100%;
     height: 100vh;
+    box-sizing: border-box;
 }
 header{
     display: block;
     width: 100%;
     height: 7rem;
+    box-sizing: border-box;
 }
 #cabecalho {
     position: relative;
@@ -21,6 +23,7 @@ header{
     background-color: #ececec;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 #minhalogo{
@@ -161,9 +164,29 @@ section{
     height: 250px;
     overflow: hidden;
     position: relative;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(0, 41, 223);
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+#circulo2:hover{
+    scale: 1.2;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+
+}
+#circulo2::before{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
     border-width: 10px;
     border-style: solid;
-    border-color: #e9e9e9;
+    border-color: rgb(3, 3, 201);
 
 }
 #circulo2 img{
@@ -181,32 +204,91 @@ section{
     position: absolute;
     top: 13rem;
     left: 40rem;
+    color: #aaa;
 }
 .adj3{
     position: absolute;
     top: 17rem;
     left: 40rem;
+    color: #aaa;
 }
 .adj4{
     width: 40rem;
     position: absolute;
     text-align: justify;
     top: 21rem;
-    left: 43rem;
+    left: 40rem;
+    color: #aaa;
+}
+#coluna2{
+    text-transform: uppercase;
 }
 .contato {
     position: absolute;
-    top: 35rem;
-    left:43rem;
+    top: 30rem;
+    left:40rem;
+    color: white;
+}
+#curriculo2{
+    padding: 15px;
+    border: 3px solid rgb(0, 41, 223);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(177, 177, 177);
+    color: #ffffff;
+}
+#curriculo2:hover{
+    padding: 15px;
+    border: 3px solid rgb(0, 41, 223);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(0, 41, 223);
+    color: #ffffff;
+    transition: 0.5ms;
+}
+#projetos2{
+    padding: 15px;
+    border: 3px solid rgb(0, 41, 223);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(177, 177, 177);
+    color: #ffffff;
+}
+#projetos2:hover{
+    padding: 15px;
+    border: 3px solid rgb(0, 41, 223);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(0, 41, 223);
+    color: #ffffff;
+    transition: 0.5ms;
+}
+#contato2{
+    padding: 15px;
+    border: 3px solid rgb(0, 41, 223);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(177, 177, 177);
+    color: #ffffff;
+}
+#contato2:hover{
+    padding: 15px;
+    border: 3px solid rgb(0, 41, 223);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(0, 41, 223);
+    color: #ffffff;
+    transition: 0.5ms;
 }
 #coluna3{
     position: absolute;
     padding: 2rem;
-    top: 70rem;
+    top: 50rem;
     left: 3rem;
+    
 }
 #coluna3, td{
-    padding-right: 15rem;
+    padding-right: 8rem;
 }
 #coockiespolitics{
     position: absolute;
